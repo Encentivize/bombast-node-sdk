@@ -1,15 +1,15 @@
 {
-  "name": "chumbl",
-  "version": "0.0.8",
-  "description": "Wrapper for chumbl api",
+  "name": "bombast",
+  "version": "0.0.1",
+  "description": "NodeJS SDK for bombast api",
   "main": "./index.js",
   "author": {
     "name": "Martin Naude",
-    "email": "martin@entelect.co.za"
+    "email": "martin@encentivize.co.za"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/martinza78/chumbl"
+    "url": "git://github.com/martinza78/bombast-node-sdk"
   },
   "dependencies": {
       "kwaai-restcall":"0.0.5"
@@ -18,7 +18,7 @@
     "node": ">= 0.10.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/martinza78/chumbl",
-  "_id": "chumbl@0.0.8",
-  "_from": "chumbl@"
+  "homepage": "https://github.com/martinza78/bombast-node-sdk",
+  "_id": "bombast@0.0.1",
+  "_from": "bombast@"
 }
