@@ -1,6 +1,6 @@
-#chumbl
+#bombast
 
-Node wrapper for chumbl calculation service.
+Node wrapper for bombast messaging service.
 
 ##API
 
