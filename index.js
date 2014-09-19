@@ -1,4 +1,4 @@
-﻿module.exports = require('./lib/chumbl.js');
+﻿module.exports = require('./lib/bombast.js');
 
 
 
