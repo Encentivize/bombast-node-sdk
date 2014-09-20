@@ -1,6 +1,6 @@
 {
   "name": "bombast",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NodeJS SDK for bombast api",
   "main": "./index.js",
   "author": {
@@ -19,6 +19,6 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/martinza78/bombast-node-sdk",
-  "_id": "bombast@0.0.3",
+  "_id": "bombast@0.0.4",
   "_from": "bombast@"
 }
