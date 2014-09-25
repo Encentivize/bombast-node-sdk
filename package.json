@@ -1,6 +1,6 @@
 {
   "name": "bombast",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NodeJS SDK for bombast api",
   "main": "./index.js",
   "author": {
@@ -12,13 +12,13 @@
     "url": "git://github.com/martinza78/bombast-node-sdk"
   },
   "dependencies": {
-      "kwaai-restcall":"0.0.5"
+      "kwaai-restcall":"0.0.6"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/martinza78/bombast-node-sdk",
-  "_id": "bombast@0.0.4",
+  "_id": "bombast@0.0.5",
   "_from": "bombast@"
 }
