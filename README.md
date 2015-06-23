@@ -9,20 +9,20 @@ The *Bombast messaging system* will need to be running at a specific server and 
 The principle of the Bombast SDK is brocken into:
 
   - **The API Call to**
-    - *bombaster*: This is used to create bombaster users who will have access to the *Bombast messaging system*
+    - **bombaster**: This is used to create bombaster users who will have access to the *Bombast messaging system*
       - **create**: The create method require an administrator that has full access.
-    - *messages*: This is used to send sms/email messages directly. This is has the following method 
+    - **messages**: This is used to send sms/email messages directly. This is has the following method 
       - **getMessages**: Get all messages that have been sent up to 50 message. 
       - **getMessage**: Get a single message
       - **sendMessage**: Send a message through the *Bombast messaging system*
       - **addMessageStatus**: Change/Add the status of a single message that has been sent
       - **addMessageSMSStatus**: Add the sms status
       - **addMessageEmailStatus**: Add the email status
-    - *masterTemplates*: A general top level template used by messages and templates
+    - **masterTemplates**: A general top level template used by messages and templates
       - **getMasterTemplates**: Get all the master template created 
       - **getMasterTemplate**: Get a single master template specified by the Id
       - **addMasterTemplate**: Add a new master template
-    - *messageTemplates*: message template, used to send messages with a formated template
+    - **messageTemplates**: message template, used to send messages with a formated template
       - **getMessageTemplates**: Gets all the message templates
       - **getMessageTemplate**: Gets a single message template, specified by an Id
       - **sendTemplateMessage**: Send a message with a template
