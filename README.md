@@ -1,7 +1,7 @@
 #bombast
 
 Node wrapper for bombast messaging service.
-This is node module you can include in your application and give it the ability to use the *bombast messaging system*.
+This is a node module you can include in your application and give it the ability to use the *bombast messaging system*.
 The *Bombast messaging system* will need to be running at a specific server and the Bombast SDK needs to point to it.
 
 ## Principle
@@ -9,7 +9,7 @@ The *Bombast messaging system* will need to be running at a specific server and 
 The principle of the Bombast SDK is brocken into:
 
   - **The API Call to**
-    - *bombaster*: This is used to create bombaster users, these users will have access to the *Bombast messaging system*
+    - *bombaster*: This is used to create bombaster users who will have access to the *Bombast messaging system*
       - **create**: The create method require an administrator that has full access.
     - *messages*: This is used to send sms/email messages directly. This is has the following method 
       - **getMessages**: Get all messages that have been sent up to 50 message. 
@@ -30,7 +30,7 @@ The principle of the Bombast SDK is brocken into:
 
 ## Install
 
-`npm install https://github.com/Encentivize/bombast-node-sdk.git`
+`npm install https://github.com/Encentivize/bombast-node-sdk.git ---save`
 
 One of the way you can include the api into your project is:
 

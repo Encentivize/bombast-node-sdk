@@ -15,4 +15,5 @@ npm-debug.log
 node_modules
 .idea
 testing.js
+/ngproject/
 /nbproject/private/
