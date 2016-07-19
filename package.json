@@ -12,7 +12,7 @@
     "url": "git://github.com/martinza78/bombast-node-sdk"
   },
   "dependencies": {
-      "kwaai-restcall":"0.0.9"
+      "kwaai-restcall":"0.0.11"
   },
   "devDependencies": {
     "fs": "0.0.2",
