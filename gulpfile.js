@@ -1,23 +1,15 @@
 'use strict';
 var gulp = require('gulp'),
-    jshint = require('gulp-jshint'),
     argv = require('yargs').argv,
     npm = require('npm'),
     fs = require('fs');
 
 var jsPath = ['./lib/**/*.js'];
 
-gulp.task('lint', function () {
-    return gulp.src(jsPath)
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'))
-        .pipe(jshint.reporter('fail'));
-});
+gulp.task('default');
 
-gulp.task('default', ['lint']);
-
-gulp.task('watch', ['lint'], function () {
-    gulp.watch(jsPath, ['lint']);
+gulp.task('watch', function () {
+    gulp.watch(jsPath);
 });
 
 gulp.task('npmPublish', function (callback) {
