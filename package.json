@@ -3,6 +3,9 @@
   "version": "0.0.12",
   "description": "NodeJS SDK for bombast api",
   "main": "./index.js",
+  "scripts": {
+    "lint": "eslint ./"
+  },
   "author": {
     "name": "Martin Naude",
     "email": "martin@encentivize.co.za"
@@ -11,21 +14,19 @@
     "type": "git",
     "url": "git://github.com/martinza78/bombast-node-sdk"
   },
-  "dependencies": {
-      "kwaai-restcall":"0.0.11"
-  },
-  "devDependencies": {
-    "fs": "0.0.2",
-    "gulp": "3.9.0",
-    "gulp-jshint": "1.11.0",
-    "npm": "2.8.3",
-    "yargs": "3.10.0"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
   "license": "MIT",
   "homepage": "https://github.com/martinza78/bombast-node-sdk",
-  "_id": "bombast@0.0.11",
-  "_from": "bombast@"
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "dependencies": {
+    "async": "2.3.0",
+    "request": "2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "gulp": "3.9.1",
+    "npm": "2.8.3",
+    "yargs": "7.0.2"
+  }
 }
