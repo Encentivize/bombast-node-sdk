@@ -1,4 +1,4 @@
-﻿module.exports = require('./lib/bombast.js');
+﻿module.exports = require('./lib/bombast-api.js');
 
 
 
