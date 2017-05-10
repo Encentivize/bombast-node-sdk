@@ -1,21 +1,18 @@
 {
   "name": "bombast",
-  "version": "0.0.12",
+  "version": "2.0.1",
   "description": "NodeJS SDK for bombast api",
   "main": "./index.js",
   "scripts": {
     "lint": "eslint ./"
   },
-  "author": {
-    "name": "Martin Naude",
-    "email": "martin@encentivize.co.za"
-  },
+  "author": "Martin Naude <martin@encentivize.co.za>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/martinza78/bombast-node-sdk"
+    "url": "git://github.com/Encentivize/bombast-node-sdk"
   },
   "license": "MIT",
-  "homepage": "https://github.com/martinza78/bombast-node-sdk",
+  "homepage": "https://github.com/Encentivize/bombast-node-sdk",
   "engines": {
     "node": ">= 6.0.0"
   },
