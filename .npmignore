@@ -8,3 +8,10 @@ testing.js
 coverage.html
 lib-cov
 .idea/
+.coverage
+.npmignore
+.npmrc
+.editorconfig
+.eslintrc.json
+.eslintignore
+.travis.yml
