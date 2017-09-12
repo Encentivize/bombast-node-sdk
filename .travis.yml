@@ -20,7 +20,7 @@ git:
 branches:
   only:
     - master
-    - v2.x
+    - /^v2\..+/
 
 cache:
   directories:
@@ -47,8 +47,10 @@ before_deploy:
 
 deploy:
   provider: npm
-  email: "gitarehero@entelect.co.za"
+  email: $NPM_EMAIL
   api_key: $NPM_TOKEN
   skip_cleanup: true
   on:
+    node: "6"
+    all_branches: true
     tags: true
